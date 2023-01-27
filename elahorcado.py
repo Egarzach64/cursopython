@@ -139,7 +139,7 @@ while True:
           print('Te has quedado sin intentos!\nDespues de ' + str(len(letrasIncorrectas)) + ' intentos fallidos y ' + str(len(letrasCorrectas)) + ' aciertos, la palabra era "' + palabraSecreta + '"')
           juegoTerminado = True
 
-   # Preguntar al jugador si quiere volver a jugar (pero solo si el juego ha terminado).
+   # Preguntar al jugador si quiere volver a jugar (pero solo si el juego ha terminado).  
    if juegoTerminado:
       if jugarDeNuevo():
          letrasIncorrectas = ''
